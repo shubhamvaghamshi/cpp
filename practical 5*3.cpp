@@ -22,7 +22,7 @@ int main()
 { 
  convert c1;
 double a,b,c,d;
-    cout << "Enter Value in centimetre: " << endl;
+    cout << "Enter Value in centimeter: " << endl;
     cin >> c1.cm;
     a = c1.cmtom();
     b = c1.cmtokm();
