@@ -29,7 +29,7 @@ double a,b,c,d;
     c = c1.cmtoft();
     d = c1.cmtoin();
     cout << "CM to Meter is: " << a << endl;
-    cout << "CM to Kilometre is: " << b << endl;
+    cout << "CM to Kilometer is: " << b << endl;
     cout << "CM to Feet is: " << c << endl;
     cout << "CM to Inches is: " << d << endl;
     return 0;
