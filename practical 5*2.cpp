@@ -12,9 +12,9 @@ public:
 int main()
 {
     Employ e1;
-    cout << "Enter Employee number: " << endl;
+    cout << "Enter Employe number: " << endl;
     cin >> e1.employe_num ;
-    cout << "Enter Employee name: " << endl;
+    cout << "Enter Employe name: " << endl;
     cin >> e1.employe_name;
     cout << "Enter Basic salary: " << endl;
     cin >> e1.basic_salary;
@@ -26,10 +26,10 @@ int main()
     cin >> e1.net_salary;
     
     cout << "Employe name is: " <<e1.employe_num << endl;
-    cout << "Enter Employe name:" <<e1.employe_name << endl;
-    cout << "Enter Basic salary:" <<e1.basic_salary << endl;
-    cout << "Enter DA: " <<e1.DA << endl;
-    cout << "Enter Income tex: " <<e1.IT << endl;
+    cout << " Employe name is :" <<e1.employe_name << endl;
+    cout << " Basic salary is:" <<e1.basic_salary << endl;
+    cout << " DA is: " <<e1.DA << endl;
+    cout << " Income tex is: " <<e1.IT << endl;
     cout << "Enter Net salary: " <<e1.net_salary << endl;
     return 0;
 }
